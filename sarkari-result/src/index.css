@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dark-mode {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text color */
+}
+
+.light-mode {
+  background-color: #ffffff; /* Light background color */
+  color: #000000; /* Dark text color */
+}
+
+/* Specific styling for sections in dark mode, if needed */
+.dark-mode .section {
+    background-color: #121212; /* Dark background color */
+ /* Dark background for sections */
+  color: #ffffff; /* Light text for sections */
+}
+
+/* Specific styling for sections in light mode, if needed */
+.light-mode .section {
+  background-color: #f9f9f9; /* Light background for sections */
+  color: #000000; /* Dark text for sections */
+}
+.view {
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  display: flex;
+  justify-content: end;
+}
+#left .view {
+  margin-left: 60%;
+  margin-top: 95%;
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+}
+#middle .view {
+  margin-left: 60%;
+  margin-top: 48%;
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+}
+#right .view {
+  margin: 5%;
+  margin-left: 60%;
+  margin-top: 5%;
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+}
+.view-grid {
+  margin: 5%;
+  margin-left: 60%;
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+}
+.view-grid_ad {
+  margin-left: 60%;
+  margin-bottom: 2%;
+  font-weight: 700;
+  color: #0000ee;
+  font-size: 18px;
+  cursor: pointer;
+}
+.section-6 {
+  width: fit-content;
+  margin: 0-18.6%;
+}
